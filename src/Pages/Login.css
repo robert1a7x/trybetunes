@@ -1,0 +1,30 @@
+.login-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+}
+
+.home-container {
+	background-color: #3bb78f;
+	background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+	height: 100vh;
+}
+
+.home-container h1 {
+	color: white;
+	font-size: 6em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	padding-top: 100px;
+	font-weight: 800;
+}
+
+.serch-container {
+	display: flex;
+	height: 38px;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 50%;
+}
