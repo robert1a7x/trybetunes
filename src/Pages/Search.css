@@ -1,0 +1,9 @@
+.albums-container {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.albums-container a {
+	text-decoration: none;
+}
