@@ -12,8 +12,8 @@ const AlbumDetail = ({ musics, loading }) => {
 			<div>
 				{ !loading && (
 					<div className="album-detail-header">
-						<h4>{musics[0].collectionName}</h4>
-						<img src={ musics[0].artworkUrl100 } alt={musics[0].collectionName} />
+						<h4>{musics[0]?.collectionName}</h4>
+						<img src={ musics[0]?.artworkUrl100 } alt={musics[0]?.collectionName} />
 					</div>
 				) }
 				{ loading ? <CircularProgress color='success' /> : musics.slice(1).map((music) => (
