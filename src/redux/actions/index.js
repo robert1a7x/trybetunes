@@ -4,9 +4,15 @@ export const GET_USER = 'GET_USER';
 export const GET_ARTIST_ALBUM = 'GET_ARTIST_ALBUM';
 export const SET_LOADING = 'SET_LOADING';
 export const GET_MUSICS = 'GET_MUSICS';
+export const UPDATE_USER = 'UPDATE_USER';
 
 export const getUserAction = (payload) => ({
 	type: GET_USER,
+	payload,
+});
+
+export const updateUserAction = (payload) => ({
+	type: UPDATE_USER,
 	payload,
 });
 

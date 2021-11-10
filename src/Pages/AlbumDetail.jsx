@@ -25,7 +25,7 @@ const AlbumDetail = ({ musics, loading }) => {
 	return (
 		<div>
 			<Header />
-			<div>
+			<div style={ { display: 'flex', alignItems: 'center', flexDirection: 'column', marginTop: '20px' } }>
 				{ !loading && (
 					<div className="album-detail-header">
 						<h4>{musics[0]?.collectionName}</h4>
