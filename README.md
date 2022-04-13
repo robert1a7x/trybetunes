@@ -19,7 +19,7 @@ Nesta aplicação um usuário é capaz de reproduzir músicas das mais variadas 
 
   
 
-## Técnologias usadas
+## Tecnologias usadas
 
 
 > Desenvolvido usando: React, React Router, Redux, Thunk, Javascript, CSS3, Material-UI, HTML5, ES6
